@@ -1,0 +1,209 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: #6985c4;
+  /* font-size: 5.625rem; */
+  font-size: 130px;
+  font-weight: 700;
+  -webkit-text-stroke: 2px black;
+  margin: 50px auto 0 auto;
+  font-family: 'Tangerine', cursive;
+}
+
+h2 {
+  color: #6985c4;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #0c65e9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #545454;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+hr {
+  /* border: dotted #EAF6F6 6px; */
+  border: dotted #6985c4 10px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  position: relative;
+  /* padding-top: 100px; */
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #a7b9e1;
+  padding: 50px 0 20px;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin-top: 10px;
+  margin-right: 300px;
+  left: 20%;
+}
+
+#nav-link {
+  display: inline-block;
+  font-weight: 900;
+  position: relative;
+  color: purple;
+  left: 15%;
+  margin: 50px 25px;
+}
+
+#nav-link:hover {
+  color: black;
+}
+
+.dark {
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.profile-pic {
+  background-color: #becef3;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 2px solid #000;
+}
+
+.hello {
+  font-weight: 900;
+}
+
+.my-skills {
+  font-size: 40px;
+  /* font-family: 'Tangerine', cursive; */
+  font-weight: 700;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  color: #001fff;
+  /* font-family: 'Tangerine', cursive; */
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #000;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.top-react-logo {
+  position: absolute;
+  width: 15%;
+  right: 300px;
+  top: 40px;
+  opacity: 0.5;
+}
+
+.bottom-react-logo {
+  position: absolute;
+  width: 15%;
+  left: 250px;
+  bottom: 300px;
+  opacity: 0.5;
+}
+
+.man {
+  width: 50%;
+}
+
+.design-gif {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+  border: 5px solid #6985c4;
+}
+
+.developer-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background-color: #6985c4;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+  text-decoration: none;
+  border: 2px solid #6985c4;
+}
+
+.footer-link {
+  color: black;
+  margin: 10px;
+}
