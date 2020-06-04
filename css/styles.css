@@ -74,11 +74,14 @@ a:hover {
 }
 
 .avatar {
+  background-color: #becef3;
   width: 80px;
   height: 80px;
   position: absolute;
   margin-top: 10px;
   margin-right: 300px;
+  border-radius: 100%;
+  border: 1px solid #000;
   left: 20%;
 }
 
@@ -86,7 +89,7 @@ a:hover {
   display: inline-block;
   font-weight: 900;
   position: relative;
-  color: purple;
+  color: #6985c4;
   left: 15%;
   margin: 50px 25px;
 }
@@ -102,6 +105,10 @@ a:hover {
   position: absolute;
   right: 50px;
   top: 50px;
+}
+
+.dark:focus {
+  outline: none;
 }
 
 .profile-pic {
@@ -146,7 +153,7 @@ a:hover {
 }
 
 .copyright {
-  color: #000;
+  color: #000 !important;
   font-size: 1rem;
   padding: 20px 0;
 }
