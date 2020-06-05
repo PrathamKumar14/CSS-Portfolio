@@ -105,6 +105,7 @@ a:hover {
   position: absolute;
   right: 50px;
   top: 50px;
+  cursor: pointer;
 }
 
 .dark:focus {
