@@ -215,3 +215,27 @@ a:hover {
   color: black;
   margin: 10px;
 }
+
+::-webkit-scrollbar {
+  width: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: white;
+  box-shadow: inset 1px 1px 5px grey;
+  border-radius: 50px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  width: 10px !important;
+  background: #6985c4;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #545454;
+}
