@@ -16,12 +16,17 @@ h1 {
   font-family: 'Tangerine', cursive;
 }
 
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+
 h2 {
   color: #6985c4;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
-  padding-bottom: 10px;
 }
 
 h3 {
@@ -63,6 +68,12 @@ a:hover {
   margin: 100px 0;
 }
 
+@media only screen and (max-width: 600px) {
+  .middle-container {
+    margin: 50px 0;
+  }
+}
+
 .bottom-container {
   background-color: #a7b9e1;
   padding: 50px 0 20px;
@@ -85,6 +96,12 @@ a:hover {
   left: 20%;
 }
 
+@media only screen and (max-width: 600px) {
+  .avatar {
+    left: 5%;
+  }
+}
+
 #nav-link {
   display: inline-block;
   font-weight: 900;
@@ -103,9 +120,15 @@ a:hover {
   border: none;
   font-size: 1.3rem;
   position: absolute;
-  right: 50px;
-  top: 50px;
+  right: 5px;
+  top: 25px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .dark {
+    top: 5px;
+  }
 }
 
 .dark:focus {
@@ -118,6 +141,13 @@ a:hover {
   height: 200px;
   border-radius: 100%;
   border: 2px solid #000;
+}
+
+@media only screen and (max-width: 1200px) {
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .hello {
@@ -136,6 +166,12 @@ a:hover {
   text-align: left;
 }
 
+@media only screen and (max-width: 600px) {
+  .skill-row {
+    width: 90%;
+  }
+}
+
 .pro {
   color: #001fff;
   /* font-family: 'Tangerine', cursive; */
@@ -148,9 +184,21 @@ a:hover {
   margin: auto;
 }
 
+@media only screen and (max-width: 600px) {
+  .intro {
+    width: 90%;
+  }
+}
+
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-message {
+    width: 90%;
+  }
 }
 
 .copyright {
@@ -177,6 +225,20 @@ a:hover {
 
 .man {
   width: 50%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .man {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .man {
+    width: 90%;
+  }
 }
 
 .design-gif {
