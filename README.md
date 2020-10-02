@@ -1,2 +1,2 @@
 # CSS-Portfolio
-Portfolio using css
+Portfolio styled up using css
